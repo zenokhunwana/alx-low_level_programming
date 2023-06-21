@@ -2,11 +2,13 @@
 #include <time.h>
 #include <stdio.h>
 
-
-/* the last digit of the number stored in the variable n */
+/**
+ * The last digit of the number stored in the variable n 
+ * Description using the main function
+ * Return: 0
+ * /
 int main(void)
 {
-	/* main function */
 	int n, j;
 
 
