@@ -3,11 +3,10 @@
 #include <stdio.h>
 /* more headers goes there */
 
-/* 
- * if statement that checks if the number is 0 
+/*
  * program will assign a random number to the variable n each time it is executed.
- * print whether the number stored in the variable n is positive or negative
-*/
+ * the last digit of the number stored in the variable n
+ */
 int main(void)
 {
 	int n;
@@ -15,18 +14,23 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
-	if (n > 0)
+	
+	if (n > 5)
 	{
-		printf("%d is positive\n", n);
+		printf("%d and is greater than 5\n", n);
 	}
-	else if (n == 0)
+	else if (n < 6 && n != 0)
 	{
-		printf("%d is zero\n", n);
+		
+		printf("%d and is less than 6 and not 0\n", n);
 	}
 	else
 	{
-		printf("%d is negative\n", n);
+		printf("%d and is less than 6 and not 0\n", n);
+		
 	}
 	
 	return (0);
+
 }
+
