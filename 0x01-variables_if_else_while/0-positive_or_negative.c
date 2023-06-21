@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /*
- * if statement that checks if the number is 
+ * if statement that checks if the number. 
  * will assign a random number to the variable n each time it is executed.
  * number stored in the variable n is positive or negative
 */
