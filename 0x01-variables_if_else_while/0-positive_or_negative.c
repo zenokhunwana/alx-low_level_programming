@@ -2,10 +2,12 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
- * if statement that checks if the number. 
- * will assign a random number to the variable n each time it is executed.
- * number stored in the variable n is positive or negative
+/**
+* main - print if the number is postive, zero, or negative
+*
+* Description: using the main function
+* this program prints "Programming is positive, zero, or negative
+* Return: 0
 */
 int main(void)
 {
@@ -13,6 +15,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
+	/* your code goes there */
 	if (n > 0)
 	{
 		printf("%d is positive\n", n);
