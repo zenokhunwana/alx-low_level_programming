@@ -3,7 +3,10 @@
 #include <stdio.h>
 /* more headers goes there */
 
-/* if statement that checks if the number is 0 */
+/* if statement that checks if the number is 0 
+ * This program will assign a random number to the variable n each time it is executed.
+ * Complete the source code in order to print whether the number stored in the variable n is positive or negative
+*/
 int main(void)
 {
 	int n;
@@ -13,15 +16,15 @@ int main(void)
 	/* your code goes there */
 	if (n > 0)
 	{
-		printf("is positive\n");
+		printf("%d is positive\n",n);
 	}
 	else if (n == 0)
 	{
-		printf("is zero\n");
+		printf("%d is zero\n",n);
 	}
 	else
 	{
-		printf("is negative\n");
+		printf("%d is negative\n",n);
 	}
 	
 	return (0);
