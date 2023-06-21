@@ -6,13 +6,14 @@
 /* the last digit of the number stored in the variable n */
 int main(void)
 {
-	int n;
+	int n,j;
+
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* main code */
 
-	int j = n%10;
+	j = n%10;
 	
 	if (n > 5)
 	{
