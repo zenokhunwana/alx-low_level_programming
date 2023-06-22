@@ -2,11 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
- * if statement that checks if the number is 
- * will assign a random number to the variable n each time it is executed.
- * number stored in the variable n is positive or negative
-*/
+/*check last number if greater than five*/
 int main(void)
 {
 	int n;
