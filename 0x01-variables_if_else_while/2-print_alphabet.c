@@ -12,7 +12,7 @@ for (ch = 'A'; ch <= 'Z'; ch++)
 {
 char out = tolower(ch);
 putchar(out);
-putchar('\n');
 }
+putchar('\n');
 return (0);
 }
