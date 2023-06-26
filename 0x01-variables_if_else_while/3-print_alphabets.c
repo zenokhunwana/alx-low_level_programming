@@ -13,9 +13,12 @@ for (ch = 'A'; ch <= 'Z'; ch++)
 {
 char out = tolower(ch);
 putchar(out);
-up = toupper(out);
-putchar(up);
 }
 putchar('\n');
+for (ch = 'a'; ch <= 'z'; ch++)
+{
+up = toupper(ch);
+putchar(up);
+}
 return (0);
 }
