@@ -4,7 +4,7 @@
 
 /**
  * main - print numbers in character
- * Return 0
+ * Return: 0
  *
  */
 
